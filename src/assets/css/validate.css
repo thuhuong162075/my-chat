@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.text-invalid {
+  color: white;
+  font-size: 1rem;
+  border: 1px solid #9c3635;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding: 6px;
+  background-color: #be4b49; }
+  .text-invalid::before {
+    content: "";
+    position: absolute;
+    background-image: url(../image/arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -13px;
+    height: 22px;
+    width: 11px;
+    left: -9px; }

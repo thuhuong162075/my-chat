@@ -1,0 +1,8 @@
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    height: 280px;
+    &.msg_card_body{
+        overflow-y: auto;
+    }
+}

@@ -1,0 +1,34 @@
+.contacts {
+  padding-bottom: 27px;
+  background: #999999;
+  width: 80%;
+  margin: 0 auto; }
+  .contacts .contact-me .img_cont {
+    position: relative;
+    height: 70px;
+    width: 70px; }
+    .contacts .contact-me .img_cont .user_img {
+      height: 70px;
+      width: 70px;
+      border: 1.5px solid #f5f6fa; }
+  .contacts .contact-me .online_icon {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #4cd137;
+    border-radius: 50%;
+    bottom: 0.2em;
+    right: 0.4em;
+    border: 1.5px solid white; }
+  .contacts .contact-me .offline {
+    background-color: #c23616 !important; }
+  .contacts .contact-me .user_info {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px; }
+    .contacts .contact-me .user_info span {
+      font-size: 20px;
+      color: white; }
+    .contacts .contact-me .user_info p {
+      font-size: 10px;
+      color: rgba(255, 255, 255, 0.6); }

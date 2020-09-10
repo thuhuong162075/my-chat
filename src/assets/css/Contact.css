@@ -1,0 +1,23 @@
+.contact {
+  margin-left: 20px; }
+  .contact .img_cont {
+    position: relative;
+    height: 70px;
+    width: 70px; }
+    .contact .img_cont .user_img {
+      height: 70px;
+      width: 70px;
+      border: 1.5px solid #f5f6fa; }
+  .contact .online_icon {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #4cd137;
+    border-radius: 50%;
+    bottom: 0.2em;
+    right: 0.4em;
+    border: 1.5px solid white; }
+  .contact .offline {
+    background-color: #c23616 !important; }
+  .contact .user_info span {
+    font-size: 16px; }

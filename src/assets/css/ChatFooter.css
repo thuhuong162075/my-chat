@@ -1,0 +1,30 @@
+.card-footer {
+  border-radius: 0 0 15px 15px !important;
+  border-top: 0 !important; }
+  .card-footer .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%; }
+    .card-footer .input-group .attach_btn {
+      border-radius: 15px 0 0 15px !important;
+      background-color: rgba(0, 0, 0, 0.3) !important;
+      border: 0 !important;
+      color: white !important;
+      cursor: pointer; }
+    .card-footer .input-group .send_btn {
+      border-radius: 0 15px 15px 0 !important;
+      background-color: rgba(0, 0, 0, 0.3) !important;
+      border: 0 !important;
+      color: white !important;
+      cursor: pointer; }
+    .card-footer .input-group .type_msg {
+      background-color: rgba(0, 0, 0, 0.3) !important;
+      border: 0 !important;
+      color: white !important;
+      height: 60px !important;
+      overflow-y: auto; }
+    .card-footer .input-group .type_msg:focus {
+      box-shadow: none !important;
+      outline: 0px !important; }

@@ -1,0 +1,87 @@
+.card-header {
+    &.msg_head {
+        position: relative;
+    }
+    .img_cont{
+        position: relative;
+        height: 70px;
+        width: 70px;
+        .user_img{
+            height: 70px;
+            width: 70px;
+            border:1.5px solid #f5f6fa;
+        }
+        .online_icon{
+            position: absolute;
+            height: 15px;
+            width:15px;
+            background-color: #4cd137;
+            border-radius: 50%;
+            bottom: 0.2em;
+            right: 0.4em;
+            border:1.5px solid white;
+        }
+        .offline{
+            background-color: #c23616 !important;
+        }
+    }
+    .user_info{
+		margin-top: auto;
+		margin-bottom: auto;
+        margin-left: 15px;
+        span{
+            font-size: 20px;
+            color: white;
+        }
+        p{
+            font-size: 16px;
+            color: #e21414;
+        }
+    }
+    .video_cam{
+		margin-left: 50px;
+        margin-top: 5px;
+        span{
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+    }
+    #action_menu_btn {
+        position: absolute;
+		right: 10px;
+		top: 10px;
+		color: white;
+		cursor: pointer;
+		font-size: 20px;
+    }
+    .action_menu{
+		z-index: 1;
+		position: absolute;
+		padding: 15px 0;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		border-radius: 15px;
+		top: 30px;
+        right: 15px;
+        display: block;
+        &.active_menu {
+            display: none;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li{
+                width: 100%;
+                padding: 10px 15px;
+                margin-bottom: 5px;
+                &:hover{
+                    cursor: pointer;
+                    background-color: rgba(0,0,0,0.2);
+                }
+            }
+        }
+    }
+}

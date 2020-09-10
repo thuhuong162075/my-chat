@@ -1,0 +1,69 @@
+.card-header.msg_head {
+  position: relative; }
+.card-header .img_cont {
+  position: relative;
+  height: 70px;
+  width: 70px; }
+  .card-header .img_cont .user_img {
+    height: 70px;
+    width: 70px;
+    border: 1.5px solid #f5f6fa; }
+  .card-header .img_cont .online_icon {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #4cd137;
+    border-radius: 50%;
+    bottom: 0.2em;
+    right: 0.4em;
+    border: 1.5px solid white; }
+  .card-header .img_cont .offline {
+    background-color: #c23616 !important; }
+.card-header .user_info {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px; }
+  .card-header .user_info span {
+    font-size: 20px;
+    color: white; }
+  .card-header .user_info p {
+    font-size: 16px;
+    color: #e21414; }
+.card-header .video_cam {
+  margin-left: 50px;
+  margin-top: 5px; }
+  .card-header .video_cam span {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px; }
+.card-header #action_menu_btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px; }
+.card-header .action_menu {
+  z-index: 1;
+  position: absolute;
+  padding: 15px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 15px;
+  top: 30px;
+  right: 15px;
+  display: block; }
+  .card-header .action_menu.active_menu {
+    display: none; }
+  .card-header .action_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .card-header .action_menu ul li {
+      width: 100%;
+      padding: 10px 15px;
+      margin-bottom: 5px; }
+      .card-header .action_menu ul li:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.2); }
